@@ -5,7 +5,7 @@ public class RectLoop extends MyFrame {
 		
 		int x = 30;
 		
-		while (x<=170) {
+		while (x<=210) {
 			fillRect(x,80,10,100);
 			x+=20;
 		}

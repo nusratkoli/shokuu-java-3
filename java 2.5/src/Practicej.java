@@ -24,7 +24,11 @@ public class Practicej extends MyFrame{
 		int h =20;
 		for (int i=0; i<8; i++)
 		{
-			
+			System.out.println(x);
+			fillRect(x,100,150,-h);
+			fillRect(x,300,-h,h);
+			x+=20;
+			h+=20;
 		}
 		
 		

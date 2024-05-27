@@ -2,36 +2,37 @@
 public class Animation extends MyFrame {
 	public void run () 
 	{
-		int y = 100;
+		int y = 200;
 		int x =30;
-		while (true) {
-		while (x<=170)
-		{
-			//1画面を消す
+		while(y>=170)
+			{
+			//1
 			clear();
-			//(2)四
+			//2
 			setColor(0,128,0);
 			fillRect(x,y,10,100);
-			//x and y 
+			y-=5;
 			
-			x+=5;
-			//y を
+			
+			
+			
 			sleep(0.1);
 		}
-		while (x>=30)
+		while(x<=170)
 		{
-			//1画面を消す
-			clear();
-			//(2)四
-			setColor(0,128,0);
-			fillRect(x,y,10,100);
-			//x and y 
-			
-			x-=5;
-			//y を
-			sleep(0.1);
-		}
-		}
+		//1
+		clear();
+		//2
+		setColor(0,128,0);
+		fillRect(x,y,10,100);
+		x+=5;
+		
+		
+		
+		
+		sleep(0.1);
+	}
+		
 	}
 
 }

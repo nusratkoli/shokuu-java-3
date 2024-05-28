@@ -15,5 +15,10 @@ public class Face {
 		
 		
 	}
+	
+	public void move() {
+		x+=vx;
+		y+=vy;
+	}
 
 }

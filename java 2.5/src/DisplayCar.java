@@ -1,8 +1,8 @@
 
-public class DisplayTree extends MyFrame {
+public class DisplayCar extends MyFrame {
 	public void run() {
-		Car car1 =new Car(0,50,10,5);
-		Car car2 =new Car(50,50,-10,-5);
+		Car car1 =new Car(100,50,10,0);
+		Car car2 =new Car(400,100,-10,-0);
 		
 		for (int i=0; i<30; i++);{
 			clear();
@@ -11,11 +11,7 @@ public class DisplayTree extends MyFrame {
 			car1.move();
 			car2.move();
 			sleep(0.1);
-			
-			
-		}
-		
-		
 	}
 
+}
 }

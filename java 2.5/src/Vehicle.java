@@ -9,6 +9,13 @@ public class Vehicle {
 	public void move(){
 		x+=vx;
 		y+=vy;
+		if (x>400) {
+			x=-100;
+		}
+		if (x<-100) {
+			x=500;
+		}
+		
 	}
 	public void draw(MyFrame f) {
 		

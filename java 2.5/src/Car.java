@@ -1,5 +1,7 @@
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
-public class Car extends Vehicle {
+public class Car extends Vehicle implements KeyListener{
 	
 	public Car(int x,int y,int vx,int vy) {
 		super (x,y,vx,vy);
@@ -12,6 +14,34 @@ public class Car extends Vehicle {
 		frame.fillOval(x+50, y+40, 20, 20);
 		
 	}
-	
+	public void keyPressed1(KeyEvent e)
+	{
+		//
+		System.out.println("キーが");
+		vx=5;
+	}
+	public void keyReleased1(KeyEvent e) 
+	{
+		//
+	}
+	public void keyTyped1(KeyEvent e) 
+	{
+		//
+	}
+	@Override
+	public void keyTyped(java.awt.event.KeyEvent e) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+	@Override
+	public void keyPressed(java.awt.event.KeyEvent e) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
+	@Override
+	public void keyReleased(java.awt.event.KeyEvent e) {
+		// TODO 自動生成されたメソッド・スタブ
+		
+	}
 
 }

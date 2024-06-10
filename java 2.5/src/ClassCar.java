@@ -1,7 +1,7 @@
 
-public class Car  {
+public class ClassCar {
 	int x,y,vx,vy;
-	public Car(int x,int y,int vx,int vy) {
+	public Car (int x,int y,int vx,int vy) {
 		this.x=x;
 		this.y=y;
 		this.vx=vx;

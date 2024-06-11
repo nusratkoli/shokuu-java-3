@@ -17,8 +17,11 @@ public class Car extends Vehicle implements KeyListener{
 	public void keyPressed1(KeyEvent e)
 	{
 		//
-		System.out.println("キーが");
-		vx=5;
+		if (e.getKeyCode()==KeyEvent.VK_LEFT) {
+			vx=-5;
+		}
+		if (e.getKeyCode()==KeyEvent.VK_RIGHT) {
+		vx=5;}
 	}
 	public void keyReleased1(KeyEvent e) 
 	{
